@@ -1,0 +1,15 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+m cmd+p",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+shift+alt+cmd+pageup",
+        "command": "gitlens.toggleFileHeatmap"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.terminal.focus"
+    }
+]
