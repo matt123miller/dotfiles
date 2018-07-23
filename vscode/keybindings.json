@@ -9,7 +9,7 @@
         "command": "gitlens.toggleFileHeatmap"
     },
     {
-        "key": "alt+`",
+        "key": "ctrl+cmd+`",
         "command": "workbench.action.terminal.focus"
     }
 ]
