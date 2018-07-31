@@ -16,3 +16,10 @@ cmd /c mklink 'C:\Users\Matt\AppData\Roaming\Code\User\settings.json' 'C:\Users\
 cmd /c mklink 'C:\Users\Matt\AppData\Roaming\Code\User\keybindings.json' 'C:\Users\Matt\dotfiles\vscode\keybindings.json'
  ```
 
+
+
+## Ubuntu
+
+```
+cd ~/.config/Code/User/
+```
