@@ -6,7 +6,6 @@
 
 `choco install firacode`
 
-### Mac 
+### Mac
 
 `brew install firacode`
-
