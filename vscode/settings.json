@@ -85,4 +85,5 @@
     "search.location": "panel",
     "gitlens.historyExplorer.enabled": true,
     "terminal.integrated.rendererType": "canvas",
+    "git.autofetch": true,
 }
