@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+    // Core editor functionality
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
@@ -13,10 +14,11 @@
     ],
     "workbench.colorTheme": "Dracula",
     "workbench.list.multiSelectModifier": "alt",
+    "breadcrumbs.enabled": true,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.rendererType": "canvas",
     "debug.toolBarLocation": "docked",
     "window.zoomLevel": 0,
     "window.nativeTabs": true,
@@ -29,6 +31,9 @@
         "**/.pyc": true
     },
     "search.useIgnoreFiles": true,
+    "search.location": "panel",
+    "explorer.confirmDragAndDrop": false,
+    // Languages
     "html.format.enable": true,
     "[html]": {
         "editor.tabSize": 2
@@ -38,16 +43,8 @@
     "php.validate.run": "onSave",
     "php.suggest.basic": false,
     "emmet.triggerExpansionOnTab": true,
-    "sync.gist": "0fb2ebe0c252442285c54a88f3cfc659",
-    "sync.lastUpload": "2017-12-19T11:00:07.104Z",
-    "sync.autoDownload": false,
-    "sync.autoUpload": false,
-    "sync.lastDownload": "2017-11-24T23:11:11.688Z",
-    "sync.forceDownload": false,
-    "sync.host": "",
-    "sync.pathPrefix": "",
-    "sync.quietSync": false,
-    "sync.askGistName": false,
+    // Extensions
+    "extensions.ignoreRecommendations": true,
     "emojisense.languages": {
         "markdown": true,
         "git-commit": false,
@@ -82,8 +79,5 @@
     "gitlens.heatmap.toggleMode": "window",
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "search.location": "panel",
     "gitlens.historyExplorer.enabled": true,
-    "terminal.integrated.rendererType": "canvas",
-    "git.autofetch": true,
 }
