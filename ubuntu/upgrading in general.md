@@ -1,0 +1,1 @@
+Probably just open terminal and `sudo apt-get update` then `sudo apt-get install {program}`

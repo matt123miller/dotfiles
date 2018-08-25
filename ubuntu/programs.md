@@ -1,0 +1,11 @@
+- zsh
+- vscode
+- firefox
+- gitkraken
+- steam
+- filezilla
+- firacode
+- php
+- python3
+- node
+
