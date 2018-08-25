@@ -1,0 +1,2 @@
+- windirstat
+- clipx (or any other clipboard manager)
