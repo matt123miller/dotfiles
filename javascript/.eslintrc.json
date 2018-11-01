@@ -1,35 +1,35 @@
 {
-  "env": {
-    "es6": true,
-    "node": true,
-    "browser": true
-  },
-  "extends": "eslint:recommended",
-  "rules": {
-    "parserOptions": {
-      "sourceType": "module"
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
     },
     "extends": "eslint:recommended",
-    "globals": {
-        "use": true
-    },
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "warn",
-            "always"
-        ],
-        "no-console": 0
+        "parserOptions": {
+            "sourceType": "module"
+        },
+        "extends": "eslint:recommended",
+        "globals": {
+            "use": true
+        },
+        "rules": {
+            "indent": [
+                "error",
+                4
+            ],
+            "linebreak-style": [
+                "error",
+                "unix"
+            ],
+            "quotes": [
+                "error",
+                "single"
+            ],
+            "semi": [
+                "warn",
+                "always"
+            ],
+            "no-console": 0
+        }
     }
-}
