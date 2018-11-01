@@ -87,4 +87,5 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.historyExplorer.enabled": true,
+  "editor.fontWeight": "500",
 }
