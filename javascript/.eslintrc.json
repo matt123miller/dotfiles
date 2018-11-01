@@ -9,22 +9,27 @@
     "parserOptions": {
       "sourceType": "module"
     },
-    "indent": [
-      "error",
-      4
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "warn",
-      "always"
-    ],
-    "no-console": 0
-  }
+    "extends": "eslint:recommended",
+    "globals": {
+        "use": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "no-console": 0
+    }
 }
