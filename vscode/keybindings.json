@@ -11,5 +11,10 @@
     {
         "key": "ctrl+cmd+`",
         "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.debug.restart",
+        "when": "inDebugMode"
     }
 ]
