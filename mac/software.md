@@ -1,0 +1,22 @@
+# Software on my mac
+
+- firefox
+- firefox dev edition
+- vscode
+- gitkraken
+- thunderbird
+- slack
+- iterm2
+- evernote
+- spotify
+- forklift
+- sequelpro
+- spectacle
+- alfred
+- 1password
+- clipmenu
+- coconut baattery
+- postman
+- spotify notifications (https://spotify-notifications.citruspi.io/)
+- the unarchiver
+- logitech mouse software
