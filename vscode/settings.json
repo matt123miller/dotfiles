@@ -16,7 +16,7 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.panel.defaultLocation": "bottom",
     "workbench.settings.editor": "json",
-    "workbench.colorTheme": "fairyfloss",
+    "workbench.colorTheme": "Shades of Purple",
     "workbench.list.multiSelectModifier": "alt",
     "explorer.openEditors.visible": 0,
     "breadcrumbs.enabled": true,
@@ -43,6 +43,9 @@
     "search.location": "panel",
     "explorer.confirmDragAndDrop": false,
     /****** Languages ******/
+    "typescript.suggest.completeFunctionCalls": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
     "html.format.enable": true,
     "[html]": {
         "editor.tabSize": 2
@@ -94,4 +97,7 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.historyExplorer.enabled": true,
     "materialTheme.autoApplyIcons": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "workbench.sideBar.location": "left",
 }
