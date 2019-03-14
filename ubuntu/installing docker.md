@@ -10,4 +10,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 https://docs.docker.com/compose/install/#install-compose
 
-I find `dockly` a useful CLI command for having some quick and easy information about current containers. Install using `sudo npm i -g dockly`.
+I find `dockly` a useful CLI command for having some quick and easy information about current containers.
+Install using `sudo npm i -g dockly`.

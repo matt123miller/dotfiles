@@ -4,5 +4,5 @@
 
  ```bash
 cd ~
-ln dotfiles/javascript/.eslintrc/json .
+ln dotfiles/javascript/.eslintrc.json .
  ```

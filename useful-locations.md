@@ -4,7 +4,7 @@
 
 `C:\Users\Matt\AppData\Roaming`
 
-## VSCode settings
+# VSCode settings
 
 ```shell
 Windows %APPDATA%\Code\User\settings.json

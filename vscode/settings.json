@@ -1,9 +1,9 @@
 {
-    /****** Core Editor ******/
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "editor.formatOnSave": true,
+  /****** Core Editor ******/
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
