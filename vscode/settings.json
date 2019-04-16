@@ -1,96 +1,108 @@
 {
-  /****** Core Editor ******/
-  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.formatOnSave": true,
-  "editor.renderWhitespace": "all",
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
-  "editor.minimap.side": "left",
-  "editor.tabSize": 4,
-  "editor.rulers": [120],
-  "editor.fontWeight": "500",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.panel.defaultLocation": "bottom",
-  "workbench.settings.editor": "json",
-  "workbench.colorTheme": "Shades of Purple",
-  "workbench.list.multiSelectModifier": "alt",
-  "explorer.openEditors.visible": 0,
-  "breadcrumbs.enabled": true,
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
-  "terminal.integrated.shellArgs.windows": ["-c", "zsh"],
-  "terminal.integrated.rendererType": "canvas",
-  "debug.toolBarLocation": "docked",
-  "window.zoomLevel": 0,
-  "window.nativeTabs": true,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.pyc": true
-  },
-  "search.useIgnoreFiles": true,
-  "search.location": "panel",
-  "explorer.confirmDragAndDrop": false,
-  /****** Languages ******/
-  "typescript.suggest.completeFunctionCalls": true,
-  "javascript.suggest.completeFunctionCalls": true,
-  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
-  "html.format.enable": true,
-  "[html]": {
-    "editor.tabSize": 2
-  },
-  "[scss, css]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true
-  },
-  "php.validate.enable": true,
-  "php.validate.executablePath": "/usr/local/bin/php",
-  "php.validate.run": "onSave",
-  "php.suggest.basic": false,
-  "emmet.triggerExpansionOnTab": true,
-  /****** Extensions ******/
-  "extensions.ignoreRecommendations": true,
-  "emojisense.languages": {
-    "markdown": true,
-    "git-commit": false,
-    "plaintext": false,
-    "json": true,
-    "javascript": true
-  },
-  "markdownlint.config": {
-    "MD013": false,
-    "MD007": false
-  },
-  "line-counter.excludes": [
-    "**/.vscode/**",
-    "**/node_modules/**",
-    "**/vendor/**"
-  ],
-  "line-counter.includes": ["**/*"],
-  "gitlens.keymap": "chorded",
-  "gitlens.advanced.blame.delayAfterEdit": 0,
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
-  },
-  "gitlens.heatmap.toggleMode": "window",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.historyExplorer.enabled": true,
-  "materialTheme.autoApplyIcons": false,
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
-  "workbench.sideBar.location": "left"
+    /****** Core Editor ******/
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": false,
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.minimap.side": "left",
+    "editor.minimap.enabled": true,
+    // "editor.tabSize": 4,
+    "editor.rulers": [
+        120
+    ],
+    "editor.fontWeight": "500",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Dracula",
+    "workbench.list.multiSelectModifier": "alt",
+    "explorer.openEditors.visible": 0,
+    "breadcrumbs.enabled": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.rendererType": "canvas",
+    "debug.toolBarLocation": "docked",
+    "window.zoomLevel": 1,
+    "window.nativeTabs": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.pyc": true
+    },
+    "search.useIgnoreFiles": true,
+    "search.location": "panel",
+    "explorer.confirmDragAndDrop": false,
+    /****** Languages ******/
+    "typescript.suggest.completeFunctionCalls": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+    "html.format.enable": true,
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[scss, css]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "php.validate.enable": true,
+    "php.validate.executablePath": "/usr/local/bin/php",
+    "php.validate.run": "onSave",
+    "php.suggest.basic": false,
+    "emmet.triggerExpansionOnTab": true,
+    /****** Extensions ******/
+    "extensions.ignoreRecommendations": true,
+    "emojisense.languages": {
+        "markdown": true,
+        "git-commit": true,
+        "plaintext": true,
+        "json": true,
+        "javascript": true
+    },
+    "markdownlint.config": {
+        "MD013": false,
+        "MD007": false
+    },
+    "line-counter.excludes": [
+        "**/.vscode/**",
+        "**/node_modules/**",
+        "**/vendor/**"
+    ],
+    "line-counter.includes": [
+        "**/*"
+    ],
+    "todohighlight.keywords": [
+        {
+        "text": "HACK:",
+        "color": "#ff0000",
+        "backgroundColor": "yellow",
+        "isWholeLine": true,
+    },
+],
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.blame.delayAfterEdit": 0,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.heatmap.toggleMode": "window",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.historyExplorer.enabled": true,
+    "materialTheme.autoApplyIcons": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
 }
