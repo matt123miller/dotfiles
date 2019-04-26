@@ -2,7 +2,7 @@
     /****** Core Editor ******/
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "editor.formatOnSave": false,
     "editor.renderWhitespace": "all",
     "editor.insertSpaces": true,
@@ -27,7 +27,7 @@
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "terminal.integrated.rendererType": "canvas",
     "debug.toolBarLocation": "docked",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "window.nativeTabs": true,
     "files.exclude": {
         "**/.git": true,
@@ -80,12 +80,17 @@
     ],
     "todohighlight.keywords": [
         {
-        "text": "HACK:",
-        "color": "#ff0000",
-        "backgroundColor": "yellow",
-        "isWholeLine": true,
-    },
-],
+            "text": "HACK:",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "isWholeLine": true,
+        },
+        {
+            "text": "TODO:",
+            "backgroundColor": "orange",
+            "isWholeLine": true
+        }
+    ],
     "gitlens.keymap": "chorded",
     "gitlens.advanced.blame.delayAfterEdit": 0,
     "gitlens.advanced.messages": {
