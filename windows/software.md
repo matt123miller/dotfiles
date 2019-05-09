@@ -1,7 +1,3 @@
-- windirstat
-- clipx (or any other clipboard manager)
-- Unity hub
-
 ## CLI
 
 - chocolatey
@@ -20,11 +16,13 @@ I think you can install multiple things with 1 `choco install`
 ```bash
 choco install git
 choco install vscode
+choco install firefox
 choco install gitkraken
-choco install firacode
 choco install nodejs-lts
 choco install wsl
-choco install wsl-ubuntu-1804 
+choco install wsl-ubuntu-1804
+choco install firacode
 choco install windirstat
 choco install spotify
+choco install steam
 ```

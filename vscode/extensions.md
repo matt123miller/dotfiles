@@ -17,7 +17,6 @@ eg2.vscode-npm-script
 Equinusocio.vsc-material-theme
 formulahendry.auto-close-tag
 jasonnutter.search-node-modules
-joelday.docthis
 mikestead.dotenv
 mohsen1.prettify-json
 ms-vscode.csharp
