@@ -1,37 +1,24 @@
 {
-    "env": {
-        "es6": true,
-        "node": true,
-        "browser": true,
-        "jquery": true
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jquery": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "parserOptions": {
+      "sourceType": "module"
     },
-    "extends": "eslint:recommended",
+    "globals": {
+      "use": true
+    },
     "rules": {
-        "parserOptions": {
-            "sourceType": "module"
-        },
-        "extends": "eslint:recommended",
-        "globals": {
-            "use": true
-        },
-        "rules": {
-            "indent": [
-                "error",
-                4
-            ],
-            "linebreak-style": [
-                "error",
-                "unix"
-            ],
-            "quotes": [
-                "error",
-                "single"
-            ],
-            "semi": [
-                "warn",
-                "always"
-            ],
-            "no-console": 0
-        }
+      "indent": ["error", 4],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+      "semi": ["warn", "always"],
+      "no-console": "off"
     }
+  }
 }
