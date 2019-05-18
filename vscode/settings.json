@@ -32,10 +32,6 @@
     "terminal.integrated.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "-c",
-        "zsh"
-    ],
     "terminal.integrated.rendererType": "canvas",
     "debug.toolBarLocation": "docked",
     "window.zoomLevel": 0,
