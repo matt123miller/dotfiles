@@ -1,6 +1,6 @@
 {
     /****** Core Editor ******/
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "editor.formatOnSave": false,
@@ -29,6 +29,7 @@
     "explorer.confirmDragAndDrop": false,
     "breadcrumbs.enabled": true,
     "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.shellArgs.windows": [
