@@ -3,7 +3,12 @@
     /****** Core Editor ******/
     "editor.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 15.5,
+    "editor.fontWeight": "500",
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        120
+    ],
     "editor.formatOnSave": false,
     "editor.formatOnPaste": true,
     "editor.renderWhitespace": "all",
@@ -12,14 +17,11 @@
     "editor.minimap.side": "left",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 200,
+    "editor.minimap.maxColumn": 120,
     "editor.minimap.showSlider": "always",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.tabSize": 4,
-    "editor.rulers": [
-        120
-    ],
-    "editor.fontWeight": "500",
+    "editor.cursorSurroundingLines": 5,
+    "editor.multiCursorMergeOverlapping": true,
     "workbench.sideBar.location": "right",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.panel.defaultLocation": "bottom",
@@ -41,7 +43,7 @@
     // ],
     "terminal.integrated.rendererType": "canvas",
     "debug.toolBarLocation": "docked",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "window.nativeTabs": true,
     "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     "files.exclude": {
