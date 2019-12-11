@@ -3,7 +3,7 @@
     /****** Core Editor ******/
     "editor.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15.5,
+    "editor.fontSize": 16,
     "editor.fontWeight": "500",
     "editor.tabSize": 4,
     "editor.rulers": [
@@ -20,7 +20,7 @@
     "editor.minimap.maxColumn": 120,
     "editor.minimap.showSlider": "always",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorSurroundingLines": 5,
+    "editor.cursorSurroundingLines": 2,
     "editor.multiCursorMergeOverlapping": true,
     "workbench.sideBar.location": "right",
     "workbench.editor.highlightModifiedTabs": true,
@@ -52,7 +52,12 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/.pyc": true
+        "**/.pyc": true,
+        "**/pkg.*.js": true,
+        "**/pkg.*.js.map": true,
+        "**/*.js.html": true,
+        "**/coverage/**": true,
+        ".nyc_output/": true
     },
     "files.watcherExclude": {
         "**/.git/objects/**": true,
@@ -88,7 +93,8 @@
     "php.suggest.basic": false,
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
-        "njk": "html"
+        "njk": "html",
+        "hbs": "html"
     },
     /****** Colour Customisations ******/
     "workbench.colorCustomizations": {
@@ -144,14 +150,19 @@
     "todohighlight.keywords": [
         {
             "text": "HACK:",
-            "color": "#ff0000",
+            "color": "red",
             "backgroundColor": "yellow",
             "isWholeLine": true,
         },
         {
             "text": "TODO:",
             "backgroundColor": "orange"
-        }
+        },
+        {
+            "text": "NOTE:",
+            "backgroundColor": "blue"
+        },
+        
     ],
     "gitlens.keymap": "chorded",
     "gitlens.advanced.blame.delayAfterEdit": 0,
@@ -173,4 +184,7 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "materialTheme.accent": "Pink",
+    "yaml.schemas": {
+        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.2.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
 }
