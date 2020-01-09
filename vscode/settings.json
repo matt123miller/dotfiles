@@ -1,6 +1,10 @@
 
 {
+    
     /****** Core Editor ******/
+    "window.zoomLevel": 0,
+    "window.nativeTabs": true,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     "editor.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
@@ -38,14 +42,14 @@
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     // "terminal.integrated.shellArgs.windows": [
-    //     "-c",
-    //     "zsh"
-    // ],
-    "terminal.integrated.rendererType": "canvas",
+        //     "-c",
+        //     "zsh"
+        // ],
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "terminal.integrated.minimumContrastRatio": 5,
     "debug.toolBarLocation": "docked",
-    "window.zoomLevel": 0,
-    "window.nativeTabs": true,
-    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "problems.showCurrentInStatus": true,
+    "files.hotExit": "off",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -69,6 +73,7 @@
     },
     "search.useIgnoreFiles": true,
     "search.location": "panel",
+    "search.enableSearchEditorPreview": true,
     /****** Languages ******/
     
     "typescript.suggest.completeFunctionCalls": true,
@@ -185,6 +190,6 @@
     "gitlens.views.lineHistory.enabled": true,
     "materialTheme.accent": "Pink",
     "yaml.schemas": {
-        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.2.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
 }
