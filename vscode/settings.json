@@ -157,6 +157,8 @@
             "text": "HACK:",
             "color": "red",
             "backgroundColor": "yellow",
+            "border": "1px solid red",
+            "borderRadius": "2px",
             "isWholeLine": true,
         },
         {
@@ -167,6 +169,14 @@
             "text": "NOTE:",
             "backgroundColor": "blue"
         },
+        {
+            "text": "FIXME",
+            "color": "white",
+            "backgroundColor": "#ff69b4",
+            "border": "1px solid white",
+            "borderRadius": "2px",
+            "isWholeLine": true
+        }
         
     ],
     "gitlens.keymap": "chorded",
@@ -189,7 +199,8 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "materialTheme.accent": "Pink",
+    "atlascode.jira.enabled": false,
     "yaml.schemas": {
-        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
+        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.3.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    }
 }
