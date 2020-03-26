@@ -1,6 +1,6 @@
 
 {
-    
+    "telemetry.enableTelemetry": false,
     /****** Core Editor ******/
     "window.zoomLevel": 0,
     "window.nativeTabs": true,
@@ -26,11 +26,11 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorSurroundingLines": 2,
     "editor.multiCursorMergeOverlapping": true,
-    "workbench.sideBar.location": "right",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.panel.defaultLocation": "bottom",
-    "workbench.settings.editor": "json",
     "workbench.colorTheme": "Dracula",
+    "workbench.sideBar.location": "left",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.panel.defaultLocation": "left",
+    "workbench.settings.editor": "json",
     "workbench.list.multiSelectModifier": "alt",
     "workbench.tree.indent": 12,
     "workbench.tree.renderIndentGuides": "always" ,
@@ -72,7 +72,6 @@
         "*.njk": "njk"
     },
     "search.useIgnoreFiles": true,
-    "search.location": "panel",
     "search.enableSearchEditorPreview": true,
     /****** Languages ******/
     
@@ -128,6 +127,8 @@
     },
     /****** Extensions ******/
     "extensions.ignoreRecommendations": true,
+    "bracketPairColorizer.colorMode": "Consecutive",
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
     "prettier.eslintIntegration": true,
     "prettier.tslintIntegration": true,
     "prettier.tabWidth": 4,
@@ -202,5 +203,5 @@
     "atlascode.jira.enabled": false,
     "yaml.schemas": {
         "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.3.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    }
+    },
 }
