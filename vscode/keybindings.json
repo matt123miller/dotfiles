@@ -9,12 +9,21 @@
         "command": "gitlens.toggleFileHeatmap"
     },
     {
-        "key": "ctrl+cmd+`",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
         "key": "ctrl+r ctrl+r",
         "command": "workbench.action.debug.restart",
         "when": "inDebugMode"
-    }
+    },
+    {
+        "key": "ctrl+shift+alt+win+oem_3",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+win+oem_3",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    
 ]

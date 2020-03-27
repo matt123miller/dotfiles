@@ -18,7 +18,7 @@
     "editor.renderWhitespace": "all",
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.minimap.side": "left",
+    "editor.minimap.side": "right",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.maxColumn": 120,
@@ -27,6 +27,7 @@
     "editor.cursorSurroundingLines": 2,
     "editor.multiCursorMergeOverlapping": true,
     "workbench.colorTheme": "Dracula",
+    "editor.snippetSuggestions": "top",
     "workbench.sideBar.location": "left",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.panel.defaultLocation": "left",
@@ -45,11 +46,12 @@
         //     "-c",
         //     "zsh"
         // ],
-    "terminal.integrated.rendererType": "experimentalWebgl",
+    "terminal.integrated.rendererType": "auto",
     "terminal.integrated.minimumContrastRatio": 5,
     "debug.toolBarLocation": "docked",
     "problems.showCurrentInStatus": true,
     "files.hotExit": "off",
+    "files.defaultLanguage": "markdown",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -73,6 +75,7 @@
     },
     "search.useIgnoreFiles": true,
     "search.enableSearchEditorPreview": true,
+    "git.autofetch": true,
     /****** Languages ******/
     
     "typescript.suggest.completeFunctionCalls": true,
@@ -132,8 +135,11 @@
     "prettier.eslintIntegration": true,
     "prettier.tslintIntegration": true,
     "prettier.tabWidth": 4,
-    "mocha-snippets.glob": "**/*.test.js",
-    "mocha.files.glob": "**/*.test.js",
+    "mocha-snippets.glob": "./Root/**/*.test.js",
+    "mocha.files.glob": "./Root/**/*.test.js",
+    "mocha.path": "./Root/node_modules/mocha",
+    "mocha.nycPath": "./Root/node_modules/nyc",
+    
     "emojisense.languages": {
         "markdown": true,
         "git-commit": false,
@@ -202,6 +208,6 @@
     "materialTheme.accent": "Pink",
     "atlascode.jira.enabled": false,
     "yaml.schemas": {
-        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.3.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.4.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
 }
