@@ -159,6 +159,7 @@
     "line-counter.includes": [
         "**/*"
     ],
+    "todo.indentation": "    ",
     "todohighlight.keywords": [
         {
             "text": "HACK:",
