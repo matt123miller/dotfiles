@@ -1,17 +1,17 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
+        "key": "ctrl+r ctrl+r",
+        "command": "workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
         "key": "ctrl+m ctrl+m",
         "command": "workbench.action.toggleMaximizedPanel"
     },
     {
         "key": "ctrl+shift+alt+cmd+pageup",
         "command": "gitlens.toggleFileHeatmap"
-    },
-    {
-        "key": "ctrl+r ctrl+r",
-        "command": "workbench.action.debug.restart",
-        "when": "inDebugMode"
     },
     {
         "key": "ctrl+shift+alt+win+oem_3",
@@ -23,7 +23,6 @@
     },
     {
         "key": "ctrl+oem_3",
-        "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    
+        "command": "editor.togglequotes"
+    }
 ]
