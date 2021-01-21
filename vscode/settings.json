@@ -1,6 +1,10 @@
 {
     "settingsSync.ignoredSettings": [
-        "window.zoomLevel"
+        "window.zoomLevel",
+        "workbench.colorTheme"
+    ],
+    "settingsSync.ignoredExtensions": [
+        "atlassian.atlascode"
     ],
     /****** Core Editor ******/
     "telemetry.enableTelemetry": false,
@@ -39,7 +43,7 @@
     "editor.cursorSurroundingLines": 2,
     "editor.multiCursorMergeOverlapping": true,
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorTheme": "Dracula Soft",
     "workbench.sideBar.location": "left",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.panel.defaultLocation": "left",
@@ -72,7 +76,7 @@
         "**/pkg.*.js.map": true,
         "**/*.js.html": true,
         "**/coverage/**": true,
-        ".nyc_output/": true
+        ".nyc_output/": true,
         "**/*.meta": true,
         "**/*.*.meta": true,
         "**/*.unity": true,
@@ -232,7 +236,7 @@
     "materialTheme.accent": "Pink",
     "atlascode.jira.enabled": false,
     "yaml.schemas": {
-        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.8.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "timeline.excludeSources": [],
     "diffEditor.ignoreTrimWhitespace": false,
