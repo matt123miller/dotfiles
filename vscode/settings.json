@@ -33,7 +33,7 @@
     ],
     "editor.formatOnSave": false,
     "editor.formatOnPaste": true,
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "editor.minimap.side": "right",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
@@ -230,10 +230,10 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.historyExplorer.enabled": true,
-    "materialTheme.autoApplyIcons": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "materialTheme.accent": "Pink",
+    "materialTheme.autoApplyIcons": false,
     "atlascode.jira.enabled": false,
     "yaml.schemas": {
         "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
