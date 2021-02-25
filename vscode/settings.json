@@ -43,7 +43,7 @@
     "editor.cursorSurroundingLines": 2,
     "editor.multiCursorMergeOverlapping": true,
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
     "workbench.sideBar.location": "left",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.panel.defaultLocation": "left",
@@ -87,7 +87,6 @@
         "**/*.tga": true,
         "**/*.cubemap": true,
         "**/*.prefab": true,
-        "**/Library": true,
         "**/ProjectSettings": true,
         "**/Temp": true
     },
@@ -100,7 +99,27 @@
         "*.njk": "njk"
     },
     "search.useIgnoreFiles": true,
+    "search.exclude": {
+      "**/*.md": true,
+      "./TODO": true,
+      "**/*.json": true,
+      "**/*.map": true,
+      "**/*.css": true,
+      "**/*.svg": true,
+      "**/*.min.js": true,
+      "**/*_init.js": true,
+      "**/*.html": true,
+      "**/*.config": true,
+      "**/*.bat": true,
+      "**/robots.txt": true,
+      "**/Gruntfile.js": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true
+    },
     "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "timeline.excludeSources": [],
     /****** Languages ******/
     "typescript.suggest.completeFunctionCalls": true,
     "javascript.suggest.completeFunctionCalls": true,
@@ -238,7 +257,5 @@
     "yaml.schemas": {
         "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
-    "timeline.excludeSources": [],
-    "diffEditor.ignoreTrimWhitespace": false,
     "atlascode.bitbucket.enabled": false,
 }
