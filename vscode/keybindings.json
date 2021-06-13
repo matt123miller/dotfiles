@@ -24,5 +24,10 @@
     {
         "key": "ctrl+oem_3",
         "command": "editor.togglequotes"
-    }
+    },
+    // {
+    //     "key": "ctrl+space",
+    //     "command": "editor.action.triggerParameterHints",
+    //     "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    // },
 ]

@@ -8,7 +8,6 @@
     ],
     /****** Core Editor ******/
     "telemetry.enableTelemetry": false,
-    "window.zoomLevel": 0,
     "window.nativeTabs": true,
     "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     "editor.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -24,11 +23,11 @@
     "editor.rulers": [
         {
             "column": 120,
-            "color": "#ff000049"
+            "color": "#fa3a3a",
         },
         {
             "column": 100,
-            "color": "#ff910059"
+            "color": "#ff91006e"
         }
     ],
     "editor.formatOnSave": false,
@@ -43,7 +42,7 @@
     "editor.cursorSurroundingLines": 2,
     "editor.multiCursorMergeOverlapping": true,
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Dracula Soft",
     "workbench.sideBar.location": "left",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.panel.defaultLocation": "left",
@@ -53,13 +52,13 @@
     "workbench.tree.renderIndentGuides": "always",
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
     "breadcrumbs.enabled": true,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.external.windowsExec": "",
     "terminal.integrated.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.rendererType": "auto",
     "terminal.integrated.minimumContrastRatio": 5,
     "debug.toolBarLocation": "docked",
     "problems.showCurrentInStatus": true,
@@ -100,22 +99,22 @@
     },
     "search.useIgnoreFiles": true,
     "search.exclude": {
-      "**/*.md": true,
-      "./TODO": true,
-      "**/*.json": true,
-      "**/*.map": true,
-      "**/*.css": true,
-      "**/*.svg": true,
-      "**/*.min.js": true,
-      "**/*_init.js": true,
-      "**/*.html": true,
-      "**/*.config": true,
-      "**/*.bat": true,
-      "**/robots.txt": true,
-      "**/Gruntfile.js": true,
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/*.code-search": true
+        "**/*.md": true,
+        "./TODO": true,
+        "**/*.json": true,
+        "**/*.map": true,
+        "**/*.css": true,
+        "**/*.svg": true,
+        "**/*.min.js": true,
+        "**/*_init.js": true,
+        "**/*.html": true,
+        "**/*.config": true,
+        "**/*.bat": true,
+        "**/robots.txt": true,
+        "**/Gruntfile.js": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
     },
     "git.autofetch": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -126,6 +125,9 @@
     "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "html.format.enable": true,
+    "[javascript]": {
+        "editor.formatOnSave": false,
+    },
     "[html]": {
         "editor.tabSize": 2
     },
@@ -139,7 +141,7 @@
     },
     "[markdown]": {
         "editor.wordWrap": "bounded",
-        "editor.wordWrapColumn" : 100,
+        "editor.wordWrapColumn": 100,
         "editor.wrappingStrategy": "simple"
     },
     "emmet.triggerExpansionOnTab": true,
@@ -174,34 +176,15 @@
     },
     /****** Extensions ******/
     "extensions.ignoreRecommendations": true,
-    "bracketPairColorizer.colorMode": "Consecutive",
-    "bracketPairColorizer.forceUniqueOpeningColor": true,
-    "prettier.eslintIntegration": true,
-    "prettier.tslintIntegration": true,
-    "prettier.tabWidth": 4,
+    "togglequotes.chars": [
+        "\"",
+        "'",
+        "`"
+    ],
     "mocha-snippets.glob": "./Root/**/*.test.js",
     "mocha.files.glob": "./Root/**/*.test.js",
     "mocha.path": "./Root/node_modules/mocha",
     "mocha.nycPath": "./Root/node_modules/nyc",
-    "emojisense.languages": {
-        "markdown": true,
-        "git-commit": false,
-        "plaintext": false,
-        "json": true,
-        "javascript": true
-    },
-    "markdownlint.config": {
-        "MD013": false,
-        "MD007": false
-    },
-    "line-counter.excludes": [
-        "**/.vscode/**",
-        "**/node_modules/**",
-        "**/vendor/**"
-    ],
-    "line-counter.includes": [
-        "**/*"
-    ],
     "todo.indentation": "    ",
     "todohighlight.keywords": [
         {
@@ -248,14 +231,6 @@
     "gitlens.heatmap.toggleMode": "window",
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.historyExplorer.enabled": true,
-    "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "materialTheme.accent": "Pink",
-    "materialTheme.autoApplyIcons": false,
-    "atlascode.jira.enabled": false,
-    "yaml.schemas": {
-        "file:///c%3A/Users/millerm/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "atlascode.bitbucket.enabled": false,
 }
