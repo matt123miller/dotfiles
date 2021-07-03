@@ -3,8 +3,11 @@
 # Install XCode and Commando Line Tools
 xcode-select --install
 
-# Install homebrew
-/usr/bin/ruby -e "  $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Install home-brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/matt/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Look at the famous macos setup script here for inspo https://github.com/mathiasbynens/dotfiles/tree/master
 
@@ -14,27 +17,5 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop/Screens
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
 
-# Cask for Versions
-brew tap caskroom/versions
 
-# CLI
-brew install git
-brew install nvm
-brew install docker-completion
-brew install bash-completion
-brew install zsh-autosuggestions
-brew install zsh-syntax-highlighting
-brew install imagemagick
-
-# Apps
-brew install --cask alfred
-brew install --cask docker
-brew install --cask firefox
-brew install --cask iterm2
-brew install --cask visual-studio-code
-brew install --cask google-chrome
-brew install --cask spotify
-brew install --cask gitkraken
-brew install --cask imageoptim
-brew install --cask obs
-
+# Set some git defaults like name, email etc.
