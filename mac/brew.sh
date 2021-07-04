@@ -39,10 +39,18 @@ brew install --cask spotify
 brew install --cask the-unarchiver
 brew install --cask visual-studio-code
 
+# update .zshrc
+# Currently not repeatable though, not sure how I'd solve that.
+
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+
 
 # Validate and cleanup
 
 brew doctor
 brew cleanup --prune=all -s -v
 
-echo 'brew.sh finished'
+echo 'brew.sh finished. Refreshing terminal.'
+
+source ~/.zshrc
