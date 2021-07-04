@@ -1,8 +1,11 @@
-# My mac terminal
+# Automated mac setup
 
-iterm2
-zsh
-ohmyzsh
+```zsh
+$ cd dotfiles/mac
+$ source setup.sh
+$ source brew.sh
+```
 
-I think I used to use the spaceship zsh thing?
-Also need to setup the zsh-autosuggestions and zsh-syntax-highlighting
+- iterm2
+- zsh
+- spaceship prompt

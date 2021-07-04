@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Brew docs
+# https://docs.brew.sh/
 
 if ! command -v brew &> /dev/null
 then
@@ -13,10 +15,11 @@ else
     echo "homebrew is installed, continue"
 fi
 
-# Cask for Versions
-brew tap caskroom/versions
+echo "Add any required casks"
+brew tap homebrew/cask-versions
+brew tap homebrew/cask-fonts
 
-# CLI
+echo "CLI tools"
 brew install git
 brew install nvm
 brew install docker-completion
@@ -24,8 +27,10 @@ brew install bash-completion
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 brew install imagemagick
+brew install font-fira-code-nerd-font
 
-# Apps
+
+echo "GUI apps"
 brew install --cask 1password
 brew install --cask alfred
 brew install --cask docker
@@ -39,18 +44,24 @@ brew install --cask spotify
 brew install --cask the-unarchiver
 brew install --cask visual-studio-code
 
-# update .zshrc
+echo "Adding zsh plugins to .zshrc"
 # Currently not repeatable though, not sure how I'd solve that.
-
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 
-# Validate and cleanup
+
+echo 'brew.sh finished'
+echo 'Installing starship prompt - https://starship.rs'
+
+brew install starship
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+
+echo "Validate and cleanup"
 
 brew doctor
 brew cleanup --prune=all -s -v
 
-echo 'brew.sh finished. Refreshing terminal.'
+echo "Refresh terminal"
 
 source ~/.zshrc
