@@ -57,7 +57,15 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.external.windowsExec": "",
     "terminal.integrated.fontFamily": "'Fira Code', Menlo, Consolas, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+    },
+    // 'terminal.integrated.shell.osx': "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "terminal.integrated.minimumContrastRatio": 5,
     "debug.toolBarLocation": "docked",
@@ -127,8 +135,19 @@
     "html.format.enable": true,
     "[javascript]": {
         "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[html]": {
+        "editor.rulers": [
+            {
+                "column": 120,
+                "color": "#fa3a3a",
+            },
+            {
+                "column": 100,
+                "color": "#ff91006e"
+            }
+        ],
         "editor.tabSize": 2
     },
     "html.suggest.html5": true,
@@ -181,10 +200,6 @@
         "'",
         "`"
     ],
-    "mocha-snippets.glob": "./Root/**/*.test.js",
-    "mocha.files.glob": "./Root/**/*.test.js",
-    "mocha.path": "./Root/node_modules/mocha",
-    "mocha.nycPath": "./Root/node_modules/nyc",
     "todo.indentation": "    ",
     "todohighlight.keywords": [
         {
