@@ -20,14 +20,14 @@ brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts
 
 echo "CLI tools"
-brew install git
-brew install nvm
-brew install docker-completion
 brew install bash-completion
+brew install docker-completion
+brew install font-fira-code-nerd-font
+brew install git
+brew install imagemagick
+brew install nvm
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
-brew install imagemagick
-brew install font-fira-code-nerd-font
 
 
 echo "GUI apps"
