@@ -44,6 +44,14 @@ brew install --cask spotify
 brew install --cask the-unarchiver
 brew install --cask visual-studio-code
 
+echo "Adding nvm to .zshrc"
+
+(
+  echo 'export NVM_DIR="$HOME/.nvm" >>'
+  echo '[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm'
+  echo '[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion'
+) >> ~/.zshrc
+
 echo "Adding zsh plugins to .zshrc"
 # Currently not repeatable though, not sure how I'd solve that.
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
