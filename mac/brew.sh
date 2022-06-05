@@ -49,13 +49,7 @@ echo "Adding zsh plugins to .zshrc"
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
-
-
 echo 'brew.sh finished'
-echo 'Installing starship prompt - https://starship.rs'
-
-brew install starship
-echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 
 echo "Validate and cleanup"
 
